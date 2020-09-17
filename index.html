@@ -1,4 +1,5 @@
 <html>
+<head Content-Type: text/html; charset=ISO-8859-4>
 <title>John Wilkins Assignment 1 Submission</title>
 </head>
 <body style="background-color:#ffe6ff">
@@ -79,16 +80,23 @@ I'm hoping to learn things that I couldn't before, about computers and technolog
 </td></tr>
 <tr><td>
   <p><h3>Project Plan</h3></p>
-  <a title="I took much less time to describe the project than the wordcount suggested. So I padded a little in the next few sections."><p>This project plan is to create a small utility tool for converting iPhone contacts, message history, and other assorted information, as .ddb, .html, and other files, to the compatible Android files (Anon. 2020).</p></a>
+  <a title="I took much less time to describe the project than the wordcount suggested. So I padded a little in the next few sections.">
+  <p><em>Overview</em></p>
+  <p>This project plan is to create a small utility tool for converting iPhone contacts, message history, and other assorted information, as .ddb, .html, and other files, to the compatible Android files (Anon. 2020).</p></a>
+  <p><em>Motivation</em></p>
   <p>As Android’s market share increases (‘Android POS Market 2018 Global Share,Trend,Segmentation and Forecast to 2023’ 2018), more people need to transfer from Apple operating systems. After transferring from an old iPhone, one finds that a simple transfer of pertinent operational files isn’t possible, especially without either an Apple account or Google account, and subsequently agreeing to both terms of service. Once a tool for extracting the raw data from an Apple proprietary backup is found, one finds that it’s not stored in the same way as Android data. An additional tool is required.</p>
+  <p><em>Description</em></p>
   <p>This will be a small utilitarian script which could take the raw contact, messages, notes, call history, photos, videos, and calendar entries from the proprietary Apple app formats. Said data would be extracted from backups.</p>
   <p>The current plan is to use the formats outputted by iMyFone® iTransor Lite, a data exporter available free online. It outputs most of the data in a mostly human readable format, that of tables on html files. From there, it is a simple matter of understanding how to write Android files, how to scrape from the html, and to write a tool which does both.</p>
   <p>However, contacts in particular are in a different file format of unknown encryption, which is not human readable. The extension is .ddb. Once that file type is understood, extracting from the data and writing to the Android format should be as simple as the other types.</p>
   <p>The intended UI is for a simple dialogue box allowing for entries of filepaths for folders containing the data as outputted by the iMyFone® iTransor tool, as well as the intended destination folder. Then, once run, the tool would save Android files containing all converted data from the target folder to the destination folder. Existing files would trigger a prompt asking for confirmation, and if given, those files would be overwritten with the new files.</p>
   <p>The user would then be able to install the Android files manually.</p>
+  <p><em>Tools and Technologies</em></p>
   <p><a title="For the Tools and Technologies, the padding went over the wordcount a little. I'm given to understand that that's not a deal breaker.">This tool would depend on iMyFone® technology, or something equivalent, to extract data from Apple backups. This is currently available at </a><a title="For the Tools and Technologies, the padding went over the wordcount a little. I'm given to understand that that's not a deal breaker." href="https://www.imyfone.com/" target="_blank">https://www.imyfone.com/</a><a title="For the Tools and Technologies, the padding went over the wordcount a little. I'm given to understand that that's not a deal breaker.">, and is currently compatible with iOS versions up to iOS 13. In addition, it requires backups to be made of the iPhone data, which in turn requires iTunes, and a functioning computer, preferably Mac but Windows versions of iTunes are available.</a></p>
   <p>There is a use of iMyFone® iTransor Lite that exports directly from an iPhone, but for the purposes of this project we will not be using it. One can also obtain backups from iCloud, but this is redundant for the purposes of this project.</p>
+  <p><em>Skills Required</em></p>
   <p>To complete this project one needs a grasp of a given programming language, and the knowledge of how to scrape data from html documents. Furthermore, an understanding of the data output into a .ddb file by the iMyFone® iTransor Lite tool is essential to completion of this project.</p>
+  <p><em>Outcome</em></p>
   <p><a title="I intentionally broke formality rules for the Outcome section of the project plan, intending to inject levity into it. It's also brief. For this segment I expect to lose points.">Once completed, this tool will allow me to finally get my old contacts onto my new phone. If public, it can allow others the same joy.</a></p>
 </td></tr>
 <tr><td>
